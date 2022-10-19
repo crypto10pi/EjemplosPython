@@ -50,7 +50,7 @@ index_list
 df_cleaned = remover_outliers(df_raw, index_list)
 print("\n")
 df_cleaned.info()
-# Guardamos nos datos sin Outsiders en una archivo csv
+# Guardamos los datos sin Outliers en una archivo csv
 df_cleaned.to_csv("DatosLimpios.csv", index=False)
 
     
