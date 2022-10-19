@@ -29,7 +29,6 @@ def outliers(df,ft):
 
 nombres_columnas = list(df_raw.columns)     
 index_list = []
-#for feature in ["age", "exercise", "hours", "grade"]:
 for feature in nombres_columnas:
     index_list.extend(outliers(df_raw, feature))
 
