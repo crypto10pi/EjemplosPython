@@ -27,7 +27,7 @@ def remover_outliers(df, ls):
 
 
 import pandas as pd
-url=input("ruta de Base de datos ")
+url=input("Ruta de Base de datos :")
 
 df_raw=pd.read_csv(url)
 df_raw.info()
