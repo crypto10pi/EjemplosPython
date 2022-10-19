@@ -7,10 +7,8 @@ Created on Fri Sep 16 12:46:35 2022
 """
 
 import pandas as pd
-url=input("ruta de Base de datos ")
-#url="gradedata.csv"
+url=input("Ruta de Base de datos :")
 df_raw=pd.read_csv(url)
-#df_raw=pd.read_csv("gradedata.csv")
 df_raw.info()
 
 
