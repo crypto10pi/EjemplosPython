@@ -12,7 +12,7 @@ url=input("ruta de Base de datos ")
 df_raw=pd.read_csv(url)
 #df_raw=pd.read_csv("gradedata.csv")
 df_raw.info()
-df_raw.describe()
+
 
 
 def outliers(df,ft):
