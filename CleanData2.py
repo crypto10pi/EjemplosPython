@@ -3,7 +3,7 @@
 """
 Created on Fri Sep 16 12:46:35 2022
 
-@author: jorge
+@author: Jorge D
 """
 
 ### Definicion de Funciones ###
